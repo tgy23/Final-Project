@@ -27,11 +27,11 @@ This project provides a robust data engineering pipeline that automates the end-
 
 ### Technology Stack
 
+- **Dataset Source**: Kaggle  
 - **Data Storage**: Azure Data Lake
 - **Azure Data Factory**: for batch scheduling
 - **Data Processing**: Databricks SQL Data Warehouse  
 - **Data Visualization**: Power BI  
-- **Dataset Source**: Kaggle  
 
 ### Use Cases
 
@@ -60,6 +60,7 @@ This architecture provides a structured, scalable, and automated pipeline for tr
   - Automates the process of fetching raw data from Kaggle with Databricks ingestion notebook.
   - Orchestrates the movement of data into the storage layer.
   - Batch jobs are scheduled daily, ensuring timely data ingestion and updates.
+  - Partitioning when transferring data to Azure Data Lake Storage.
 - ADF ensures reliability and scalability in data movement across pipeline layers.
 
 ---
