@@ -3,6 +3,17 @@ provider "azurerm" {
   features {}
 }
 
+# Specify Terraform version
+terraform {
+  required_version = ">= 1.3.0" # Ensure using Terraform 1.3.0 or later
+  required_providers {
+    databricks = {
+      source  = "databrickslabs/databricks"
+      version = ">= 1.20.0"
+    }
+  }
+}
+
 # Create a Resource Group
 resource "azurerm_resource_group" "rg" {
   name     = "novi-education"
