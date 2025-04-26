@@ -41,4 +41,5 @@ This project provides a robust data engineering pipeline that automates the end-
 
 ### Architecture
 
-![architecture drawio](https://github.com/user-attachments/assets/68b62163-e03c-425d-94e0-26183f4bb6b9)
+![Untitled Diagram drawio](https://github.com/user-attachments/assets/1209553f-2e9e-484a-9c0e-dcf53f86a26b)
+
