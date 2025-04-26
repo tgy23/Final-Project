@@ -43,3 +43,71 @@ This project provides a robust data engineering pipeline that automates the end-
 
 ![Untitled drawio](https://github.com/user-attachments/assets/8c9005fc-28ba-4ca8-b5af-dcfb0bcb6d4b)
 
+# Data Pipeline Architecture Overview
+
+This architecture provides a structured, scalable, and automated pipeline for transforming raw Kaggle datasets into actionable insights displayed on Power BI dashboards. Below is a detailed description of each layer and its role in the data pipeline:
+
+## 1. Source Layer: Kaggle
+- Kaggle serves as the data source for this pipeline.
+- The raw datasets are downloaded and prepared for ingestion into the pipeline.
+- Datasets may include structured or unstructured data formats.
+
+---
+
+## 2. Ingestion and Orchestration Layer: Azure Data Factory (ADF)
+- **Azure Data Factory (ADF)** acts as the ingestion and orchestration tool.
+- **Key Features**:
+  - Automates the process of fetching raw data from Kaggle with Databricks ingestion notebook.
+  - Orchestrates the movement of data into the storage layer.
+  - Batch jobs are scheduled daily, ensuring timely data ingestion and updates.
+- ADF ensures reliability and scalability in data movement across pipeline layers.
+
+---
+
+## 3. Storage Layer: Azure Data Lake with Bronze, Silver, and Gold Containers
+To ensure proper data management and processing, the data lake is divided into three distinct layers:
+
+### a. **Bronze Storage Container**
+- Raw data from Kaggle is stored in the **Bronze** container.
+- This layer contains unprocessed or minimally cleaned data.
+- Retains data in its original format for future auditing or re-processing needs.
+
+### b. **Silver Storage Container**
+- Processed and cleaned data is stored in the **Silver** container.
+- Data transformations are applied here to standardize, validate, and clean the data.
+- This layer serves as the staging zone for further processing and analysis.
+
+### c. **Gold Storage Container**
+- Fully transformed and enriched data is stored in the **Gold** container.
+- Data is optimized for analytics and reporting purposes.
+- This layer serves as the final source for downstream applications like Power BI.
+
+---
+
+## 4. Processing Layer: Databricks and Databricks SQL Warehouse
+The processing of data is handled by **Databricks** using Spark and SQL technologies.
+
+### a. **Databricks with Apache Spark**
+- Performs advanced data transformations and computations.
+- Handles large-scale data processing tasks with ease and efficiency.
+- Transforms raw data into structured formats ready for analysis.
+
+### b. **Databricks SQL Warehouse**
+- Acts as the data warehouse for storing processed datasets.
+- Enables fast querying and supports SQL-based analytics.
+- Integrates seamlessly with Power BI for real-time reporting.
+
+---
+
+## 5. Reporting Layer: Power BI
+- The transformed data from the **Gold** storage or **Databricks SQL Warehouse** is visualized in **Power BI**.
+- Power BI dashboards provide actionable insights through interactive and visually appealing reports.
+- Enables stakeholders to make data-driven decisions with ease.
+
+### End-to-End Workflow
+1. Kaggle datasets are ingested via Azure Data Factory and stored in the Bronze container.
+2. Data is processed and moved to Silver and Gold containers for enhanced usability.
+3. Databricks performs transformations and stores the data in the Databricks SQL Warehouse.
+4. Power BI connects to the Gold container or SQL Warehouse to generate dynamic dashboards.
+
+This architecture ensures a seamless, scalable, and highly efficient data pipeline, supporting real-time analytics and business intelligence needs.
