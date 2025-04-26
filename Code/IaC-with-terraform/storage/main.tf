@@ -11,7 +11,7 @@ resource "azurerm_resource_group" "rg" {
 
 # Create a Storage Account
 resource "azurerm_storage_account" "st" {
-  name                     = "noviprojectst"  #  
+  name                     = "noviprojectst"  
   resource_group_name      = azurerm_resource_group.rg.name
   location                 = azurerm_resource_group.rg.location
   account_tier             = "Standard"
