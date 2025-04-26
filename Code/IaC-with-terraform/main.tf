@@ -44,8 +44,6 @@ resource "azurerm_databricks_workspace" "dbx" {
   sku                 = "premium"
 }
 
-
-
 # Create an Azure Data Factory
 resource "azurerm_data_factory" "adf" {
   name                = "novidatafactory"
