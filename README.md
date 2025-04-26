@@ -22,6 +22,8 @@ This project provides a robust data engineering pipeline that automates the end-
 4. **Power BI Integration**  
    - The transformed data is ready for creating powerful, interactive dashboards in Power BI.  
    - Supports business intelligence and data visualization needs.
+  
+5. **Infrastructure provisioning with Terraform IaC**  
 
 ### Technology Stack
 
