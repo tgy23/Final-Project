@@ -5,7 +5,7 @@ provider "azurerm" {
 
 # Specify Terraform version
 terraform {
-  required_version = ">= 1.3.0" # Ensure using Terraform 1.3.0 or later
+  required_version = ">= 1.3.0" 
   required_providers {
     databricks = {
       source  = "databrickslabs/databricks"
