@@ -39,4 +39,6 @@ This project provides a robust data engineering pipeline that automates the end-
 - Creating data pipelines for efficient data warehousing and transformation.
 - Preparing datasets for real-time business intelligence and visualization.
 
-This project is ideal for data engineers and analysts looking to optimize their data processing workflows using modern cloud-based tools.
+### Architecture
+
+![architecture drawio](https://github.com/user-attachments/assets/68b62163-e03c-425d-94e0-26183f4bb6b9)
