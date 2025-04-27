@@ -44,7 +44,7 @@ The research aims to uncover patterns and insights that can help students optimi
 
 - **Dataset Source**: Kaggle  
 - **Data Storage**: Azure Data Lake
-- **Azure Data Factory**: for batch scheduling and orchestration
+- **Azure Data Factory**: Batch scheduling and orchestration
 - **Data Processing**: Apache Spark with Azure Databricks
 - **Data warehouse**: Databricks SQL Data Warehouse  
 - **Data Visualization**: Power BI  
