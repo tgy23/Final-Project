@@ -158,4 +158,4 @@ The processing of data is handled by **Databricks** using Spark and SQL technolo
 3. Databricks performs transformations and stores the data in the Databricks SQL Warehouse.
 4. Power BI connects to the Gold container or SQL Warehouse to generate dynamic dashboards.
 
-This architecture ensures a seamless, scalable, and highly efficient data pipeline, supporting real-time analytics and business intelligence needs.
+This architecture ensures a seamless, scalable, and highly efficient data pipeline, supporting batch analytics and business intelligence needs.
