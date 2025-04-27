@@ -11,20 +11,6 @@ This project provides a robust data engineering pipeline that automates the end-
    - Stores the cleaned and preprocessed data in Azure Data Lake for further use.
    - Ingesting data in a batch with Azure Data Factory trigger
   
-How this works with ADF?
-
-- Create data factory resource preferably with IaC tool such as Terraform
-  
-![image](https://github.com/user-attachments/assets/1c1d3e3c-9477-47c3-88c1-fa3b31ccb7b8)
-
-- Create a linked service.
-
-![image](https://github.com/user-attachments/assets/68e962e5-efa9-44ad-b30a-39ce688fee02)
-
-- Create pipeline with scheduled every day for batch
-  
-![image](https://github.com/user-attachments/assets/c3e15555-8c16-403f-b2ae-bff8604c39f1)
-
 2. **Data Transfer to Databricks SQL Data Warehouse**  
    - Implements a pipeline to move data from Azure Data Lake to a Databricks SQL-based data warehouse.  
    - Ensures data integrity and consistency during the transfer process.
@@ -78,6 +64,20 @@ This architecture provides a structured, scalable, and automated pipeline for tr
   - Batch jobs are scheduled daily, ensuring timely data ingestion and updates.
   - Partitioning when transferring data to Azure Data Lake Storage.
 - ADF ensures reliability and scalability in data movement across pipeline layers.
+
+How this works with ADF?
+
+- Create data factory resource preferably with IaC tool such as Terraform
+  
+![image](https://github.com/user-attachments/assets/1c1d3e3c-9477-47c3-88c1-fa3b31ccb7b8)
+
+- Create a linked service.
+
+![image](https://github.com/user-attachments/assets/68e962e5-efa9-44ad-b30a-39ce688fee02)
+
+- Create pipeline with scheduled every day for batch
+  
+![image](https://github.com/user-attachments/assets/c3e15555-8c16-403f-b2ae-bff8604c39f1)
 
 ---
 
