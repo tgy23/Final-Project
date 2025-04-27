@@ -14,12 +14,15 @@ This project provides a robust data engineering pipeline that automates the end-
 How this works with ADF?
 
 - Create data factory resource preferably with IaC tool such as Terraform
+  
 ![image](https://github.com/user-attachments/assets/1c1d3e3c-9477-47c3-88c1-fa3b31ccb7b8)
 
 - Create a linked service.
+
 ![image](https://github.com/user-attachments/assets/68e962e5-efa9-44ad-b30a-39ce688fee02)
 
 - Create pipeline with scheduled every day for batch
+  
 ![image](https://github.com/user-attachments/assets/c3e15555-8c16-403f-b2ae-bff8604c39f1)
 
 2. **Data Transfer to Databricks SQL Data Warehouse**  
