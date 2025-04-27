@@ -53,7 +53,7 @@ The research aims to uncover patterns and insights that can help students optimi
 
 - Automating data ingestion and storage for analytics workflows.
 - Creating data pipelines for efficient data warehousing and transformation.
-- Preparing datasets for real-time business intelligence and visualization.
+- Preparing datasets for business intelligence and visualization.
 
 ### Architecture
 
