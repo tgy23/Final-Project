@@ -99,6 +99,8 @@ To ensure proper data management and processing, the data lake is divided into t
 - Data is optimized for analytics and reporting purposes.
 - This layer serves as the final source for downstream applications like Power BI.
 
+![image](https://github.com/user-attachments/assets/58179b6b-0df8-4367-ba82-7cca2c30ba7d)
+
 ---
 
 ## 4. Processing Layer: Databricks and Databricks SQL Warehouse
