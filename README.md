@@ -84,7 +84,7 @@ How this works with ADF?
 ## 3. Storage Layer: Azure Data Lake with Bronze, Silver, and Gold Containers
 To ensure proper data management and processing, the data lake is divided into three distinct layers:
 
-### a. **Bronze Storage Container - Incoming container as landing zone**
+### a. **Bronze Storage Container - incoming container as landing zone**
 - Raw data from Kaggle is stored in the **Bronze** container.
 - This layer contains unprocessed or minimally cleaned data.
 - Retains data in its original format for future auditing or re-processing needs.
@@ -94,7 +94,7 @@ To ensure proper data management and processing, the data lake is divided into t
 - Data transformations are applied here to standardize, validate, and clean the data.
 - This layer serves as the staging zone for further processing and analysis.
 
-### c. **Gold Storage Container - Cleaned container**
+### c. **Gold Storage Container - cleaned container**
 - Fully transformed and enriched data is stored in the **Gold** container.
 - Data is optimized for analytics and reporting purposes.
 - This layer serves as the final source for downstream applications like Power BI.
