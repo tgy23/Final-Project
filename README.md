@@ -104,7 +104,7 @@ To ensure proper data management and processing, the data lake is divided into t
 - Retains data in its original format for future auditing or re-processing needs.
 
 ### b. **Silver Storage Container - curated container**
-- Processed and cleaned data is stored in the **Silver** container.
+- Processed and curated data is stored in the **Silver** container.
 - Data transformations are applied here to standardize, validate, and clean the data.
 - This layer serves as the staging zone for further processing and analysis.
 
