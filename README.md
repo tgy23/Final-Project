@@ -29,7 +29,7 @@ This project provides a robust data engineering pipeline that automates the end-
 
 - **Dataset Source**: Kaggle  
 - **Data Storage**: Azure Data Lake
-- **Azure Data Factory**: for batch scheduling
+- **Azure Data Factory**: for batch scheduling and orchestration
 - **Data Processing**: Databricks SQL Data Warehouse  
 - **Data Visualization**: Power BI  
 
