@@ -23,7 +23,9 @@ This project provides a robust data engineering pipeline that automates the end-
    - The transformed data is ready for creating powerful, interactive dashboards in Power BI.  
    - Supports business intelligence and data visualization needs.
   
-5. **Infrastructure provisioning with Terraform IaC**  
+5. **Infrastructure provisioning with Terraform IaC**
+   - Resources are provissioned with Terraform IaC.
+   - Using Terraform's declarative syntax, infrastructure is defined as code, allowing to version, review, and reuse infrastructure configurations.
 
 ### Technology Stack
 
