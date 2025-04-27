@@ -129,7 +129,7 @@ The processing of data is handled by **Databricks** using Spark and SQL technolo
 ### b. **Databricks SQL Warehouse**
 - Acts as the data warehouse for storing processed datasets.
 - Enables fast querying and supports SQL-based analytics.
-- Integrates seamlessly with Power BI for real-time reporting.
+- Integrates seamlessly with Power BI for reporting.
   
 ![image](https://github.com/user-attachments/assets/2d3b645f-9470-48e7-9b62-36cf8cdfff75)
 
