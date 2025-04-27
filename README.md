@@ -4,6 +4,19 @@
 
 This project provides a robust data engineering pipeline that automates the end-to-end process of handling Kaggle datasets, transforming them for analytics, and preparing them for visualization in Mirosoft Power BI. The pipeline is designed to leverage Azure storage for storing, Azure Data Factory for every day batch scheduling  and Databricks, ensuring scalability, efficiency, and seamless integration across platforms.
 
+## About the project:
+
+This study explores the correlation between various student habits and their academic performance. It aims to examine how daily routines, study practices, sleep patterns, time management, and social activities impact academic outcomes, including grades, test scores, and overall engagement in school activities. The project will involve collecting data from students through surveys or interviews, focusing on key habits such as:
+
+- Study techniques and frequency
+- Hours spent on academic work outside of school
+- Sleep duration and quality
+- Time management and organization
+- Participation in extracurricular activities
+- Social habits (including screen time, social media usage, etc.)
+
+The research aims to uncover patterns and insights that can help students optimize their habits for better academic success. By analyzing the data, the project seeks to identify which habits have the most significant positive or negative impact on performance. Ultimately, the study aims to provide recommendations for students, educators, and parents to improve student well-being and academic outcomes.
+
 ### Key Features
 
 1. **Kaggle Dataset Ingestion to Azure Data Lake**  
