@@ -77,7 +77,7 @@ How this works with ADF?
 
 - Create pipeline with scheduled every day for batch
   
-![image](https://github.com/user-attachments/assets/c3e15555-8c16-403f-b2ae-bff8604c39f1)
+![image](https://github.com/user-attachments/assets/5e948a13-d29a-4bba-a3ce-fcf3cd8aeae9)
 
 ---
 
