@@ -126,6 +126,16 @@ The processing of data is handled by **Databricks** using Spark and SQL technolo
 - Power BI dashboards provide actionable insights through interactive and visually appealing reports.
 - Enables stakeholders to make data-driven decisions with ease.
 
+  Screenshots from the dahsboard
+  
+  ![image](https://github.com/user-attachments/assets/0ad0661b-7d2c-4885-b1dd-1b774ddd3c70)
+
+  ![image](https://github.com/user-attachments/assets/69063e69-8397-45a1-b4a6-007dcebceafe)
+
+  
+
+
+
 ### End-to-End Workflow
 1. Kaggle datasets are ingested via Azure Data Factory and stored in the Bronze container.
 2. Data is processed and moved to Silver and Gold containers for enhanced usability.
